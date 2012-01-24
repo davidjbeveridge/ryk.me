@@ -1,0 +1,39 @@
+<section class="grid_8">
+	<iframe width="620" height="509" src="http://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&rel=0" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<section class="grid_4">
+	<a href="<%= raw @link.url %>" class="continue-link">Continue to <br /> <%= @link.url%></a>
+
+	<p>
+		<b>Views:</b> <%= @link.views %> |
+			<b>Share Link:</b>
+		<input type="text" value="<%= "#{root_url}#{@link.shortcode}" -%>" size="50" /><br />
+		<br />
+		
+		<a href="http://twitter.com/share" class="twitter-share-button"
+			data-url="<%= "#{root_url}#{@link.shortcode}" -%>"
+			data-text="Freikin Awesome! Check this out: "
+			data-count="horizontal">Tweet</a>
+		<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	</p>
+	<hr />
+	<p>
+		<h3><%= link_to "Rickroll your own", root_url %></h3>
+	</p>
+	
+	<!-- Ads here -->
+	<script type="text/javascript"><!--
+	google_ad_client = "ca-pub-6272272829688022";
+	/* rykme sidebar */
+	google_ad_slot = "8807348795";
+	google_ad_width = 300;
+	google_ad_height = 250;
+	//-->
+	</script>
+	<script type="text/javascript"
+	src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+	
+
+</section>

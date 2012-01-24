@@ -1,0 +1,22 @@
+<section class="grid_12 home">
+
+<%= form_for(@link) do |f| %>
+<h1>Rickrolling&mdash;it's fun and easy!</h1>
+  <div class="field">
+    <%= f.label :url, 'URL' %>
+    <%= f.text_field :url %><%= f.submit "Let's Rickroll!!" %>
+
+		<% err =  f.error_message_on :url; unless err.blank? %>
+		<div class="form_error">
+			<%= raw "URL #{err}" %>
+		</div>
+		<% end %>
+  </div>
+  <div class="actions">
+    
+  </div>
+<% end %>
+
+<%= render :partial => 'shared/wtf' %>
+
+</section>

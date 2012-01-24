@@ -1,0 +1,28 @@
+<section class="grid_12">
+<h1>Listing links</h1>
+
+<table id="links-table">
+  <tr>
+    <th>Url</th>
+    <th>Shortcode</th>
+    <th>Views</th>
+		<th>Created</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @links.each do |link| %>
+  <tr>
+    <td><%= link_to truncate(link.url), link.url %></td>
+    <td><%= link.shortcode %></td>
+    <td><%= link.views %></td>
+		<td><%= link.created_at %></td>
+    <td><%= link_to 'Show', link %></td>
+    <td><%= link_to 'Edit', edit_link_path(link) %></td>
+    <td><%= link_to 'Destroy', link, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+</section>

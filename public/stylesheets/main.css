@@ -1,0 +1,89 @@
+a	{
+	text-decoration: none;
+	color: #E61E9E;
+}
+blockquote	{
+	margin: 20px 0;
+	padding: 20px;
+	background: #eee;
+}
+#page-header	{
+	height: 75px;
+	margin-bottom: 20px;
+	border-bottom: solid 2px #000;
+}
+#page-header h1	{
+	margin-bottom: 0;
+}
+#page-header h1 a	{
+	text-decoration:none;
+	color: #E61E9E;
+}
+
+section.home form	{
+	text-align: center;
+	padding: 50px 0;
+}
+
+section.home label,
+section.home input	{
+	font-size: 18pt;
+}
+
+section.home #link_submit	{
+	font-size: 18pt;
+	border: solid 1px #e01090;
+	background: #E61E9E;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+section.home section.help	{
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top: dashed 1px #000;
+}
+
+div.field	{
+	margin: 40px;
+	padding: 40px;
+	border: solid 1px #ccc;
+	border-radius: 9px;
+}
+div.field_with_errors	{
+	display: inline-block;
+}
+div.formError	{
+	display: inline;
+}
+
+a.continue-link	{
+	display: block;
+	font-size: 24px;
+	font-style: bold;
+	color: #fff;
+	background: #E61E9E;
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+#links-table	{
+	width: 940px;
+}
+
+#links-table tr:first-child	{
+	background: #eee;
+}
+#links-table td	{
+	padding: 3px 0;
+}
+
+#page-footer	{
+	text-align: center;
+	margin-top: 50px;
+	padding: 20px 0;
+	border-top: solid 1px #000;
+}
