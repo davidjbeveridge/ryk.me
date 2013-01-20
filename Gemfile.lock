@@ -45,6 +45,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.16)
     mysql2 (0.2.7)
+    newrelic_rpm (3.5.5.38)
     pg (0.13.2)
     polyglot (0.3.1)
     rack (1.2.3)
@@ -84,6 +85,7 @@ PLATFORMS
 DEPENDENCIES
   friendly_id
   mysql2 (< 0.3)
+  newrelic_rpm
   pg
   rails (= 3.0.9)
   sqlite3
